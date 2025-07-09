@@ -1,5 +1,17 @@
-node_modules/
+# .gitignore
+
+# node modules
+**/node_modules/
+
+# env files
+*.env
+
+# Expo + React Native
 .expo/
 .expo-shared/
-.env
-*.apk
+*.log
+
+# VSCode & OS junk
+.vscode/
+.DS_Store
+Thumbs.db
