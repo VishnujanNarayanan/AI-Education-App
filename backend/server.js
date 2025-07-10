@@ -13,7 +13,6 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
-// Routes
 const videoRoutes = require('./routes/videoRoutes');
 app.use('/api/videos', videoRoutes);
 
